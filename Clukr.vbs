@@ -79,7 +79,7 @@ If intAnswer = vbYes Then
     WScript.Sleep(100)
     CreateObject("Wscript.Shell").run("taskkill /f /im sinewaves.exe")
     WScript.Sleep(100)
-    CreateObject("Wscript.Shell").run("taskkill /f /im cudes.exe")
+    CreateObject("Wscript.Shell").run("taskkill /f /im cubes.exe")
     WScript.Sleep(100)
     CreateObject("Wscript.Shell").run("taskkill /f /im circle.exe")
     WScript.Sleep(100)
