@@ -58,7 +58,7 @@ intAnswer = _
     Msgbox("This Trojan is no joke, do you want to run it? Epilepsy and loud noise warning! Creator not responsible for any damages!", _
         vbYesNo, "Phosgene.exe")
 If intAnswer = vbYes Then
-    CreateObject("Wscript.Shell").run(ScreenRecording_02-01-2025 20-30-56_1.exe")
+    CreateObject("Wscript.Shell").run("ScreenRecording_02-01-2025 20-30-56_1.exe")
     CreateObject("Wscript.Shell").run("lines.exe")
     CreateObject("Wscript.Shell").run("BitBlt1.exe")
     WScript.Sleep(30000)
